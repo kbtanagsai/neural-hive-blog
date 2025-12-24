@@ -1,0 +1,62 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#grad1)"/>
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">Generative AI Models</text>
+
+  <!-- GPT-like model -->
+  <rect x="100" y="80" width="120" height="80" fill="white" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="160" y="110" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">GPT</text>
+  <text x="160" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">Text Generation</text>
+
+  <!-- DALL-E like model -->
+  <rect x="250" y="80" width="120" height="80" fill="white" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="310" y="110" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">DALL-E</text>
+  <text x="310" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">Image Generation</text>
+
+  <!-- Stable Diffusion -->
+  <rect x="400" y="80" width="120" height="80" fill="white" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="460" y="110" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Stable Diff.</text>
+  <text x="460" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">Image Creation</text>
+
+  <!-- BERT-like model -->
+  <rect x="550" y="80" width="120" height="80" fill="white" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="610" y="110" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">BERT</text>
+  <text x="610" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">Understanding</text>
+
+  <!-- Arrows showing relationships -->
+  <path d="M220 120 L240 120" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M370 120 L390 120" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M520 120 L540 120" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Foundation Model Base -->
+  <rect x="300" y="200" width="200" height="60" fill="#4facfe" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="400" y="225" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Foundation Model</text>
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Large Language Model</text>
+
+  <!-- Fine-tuning arrows -->
+  <path d="M350 200 L320 180" stroke="#666" stroke-width="2"/>
+  <path d="M450 200 L480 180" stroke="#666" stroke-width="2"/>
+  <text x="290" y="175" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Fine-tune</text>
+  <text x="510" y="175" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Fine-tune</text>
+
+  <!-- Specialized models -->
+  <rect x="200" y="280" width="120" height="50" fill="#00f2fe" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="260" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Medical AI</text>
+
+  <rect x="350" y="280" width="120" height="50" fill="#f5576c" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="410" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Code Assistant</text>
+
+  <rect x="500" y="280" width="120" height="50" fill="#f093fb" stroke="#333" stroke-width="2" rx="8"/>
+  <text x="560" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Creative Writer</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
